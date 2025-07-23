@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="nav-bg">
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+
+        <nav class="nav links" id="nav">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="logo"><p>Portfolio</p></div>
+
+      <div class="menu-bg" id="menu-bg"></div>
+    </div>
+
+    <!-- Hero Section -->
+    
+    <div class="hero" id="home">
+      <div class="box">
+        <p>AoA! My name is</p>
+        <h1>Ayyaz Qadir</h1>
+        <p class="align">I'm a web developer.</p>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <section id="about">
+      <h1>About Me</h1>
+      <h3>What I do and who I am.</h3>
+      <p>
+        I’m Ayyaz Qadir, a web developer with a BS in Computer Science and
+        practical experience gained through internships at Bytewise Limited and
+        Ideo College. I specialize in HTML, CSS, JavaScript, React, and Node.js,
+        and have also worked with Bootstrap, GitHub, and jQuery. I focus on
+        building responsive, user-friendly web applications and continuously
+        seek to improve my skills by learning new technologies
+      </p>
+    </section>
+
+    <!-- Services Section -->
+
+    <section id="services">
+      <h1>Services</h1>
+      <div class="service-box">
+        <div class="service-item">
+          <i class="fa fa-laptop"></i>
+          <h3>Web Development</h3>
+          <p>Creating responsive and user-friendly websites.</p>
+        </div>
+        
+        <div class="service-item">
+          <i class="fa fa-html5"></i>
+          <h3>HTML</h3>
+          <p>Structuring web content with semantic, accessible HTML.</p>
+        </div>
+        
+        <div class="service-item">
+          <i class="fa fa-css3"></i>
+          <h3>CSS</h3>
+          <p>Styling modern, responsive web pages using CSS and frameworks like Bootstrap.</p>
+        </div>
+        
+        <div class="service-item">
+          <i class="bi bi-code"></i>
+          <h3>JavaScript</h3>
+          <p>Creating dynamic and interactive web experiences using JavaScript.</p>
+        </div>
+
+        <div class="service-item">
+          <i class="fa fa-cogs"></i>
+          <h3>React</h3>
+          <p>Building modern web applications with React for efficient UI development.</p>
+        </div>
+
+        <div class="service-item">
+          <i class="fa fa-server"></i>
+          <h3>Node.js</h3>
+          <p>Developing server-side applications using Node.js for scalable web solutions.</p>
+        </div>
+
+        <div class="service-item">
+          <i class="fa fa-github"></i>
+          <h3>GitHub</h3>
+          <p>Version control and collaboration using GitHub for efficient project management.</p>
+        </div>
+
+        <div class="service-item">
+          <i class="fa fa-bolt"></i>
+          <h3>jQuery</h3>
+          <p>Enhancing web interactivity and animations with jQuery.</p>
+        </div>
+
+        <div class="service-item">
+            <i class="bi bi-bootstrap"></i>
+          <h3>Bootstrap</h3>
+          <p>Building responsive, mobile-first projects on the web using Bootstrap.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>If you'd like to get in touch, feel free to reach out!</p>
+      <form id="contact-form" action="mailto:ayyazqadir05@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Name" required />
+        <input type="email" name="Email" placeholder="Your Email" required />
+        <textarea name="Message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer id="footer">
+      <p>&copy; 2025 Ayyaz Qadir. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1CSZ8WwtCD/"><i class="fa fa-facebook"></i></a>
+        <a href="https://x.com/Ayyaz_Qadir?t=tBviWNQXvHaIP01HOIi-kg&s=09"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/ayyaz_qadir/profilecard/?igsh=anR6eHJsNXlmdzNq"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/ayyaz-qadir/"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
